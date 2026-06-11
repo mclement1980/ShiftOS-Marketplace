@@ -1,0 +1,16 @@
+{
+  "name": "ai-ready-project",
+  "version": "1.0.0",
+  "description": "ShiftOS Session 6 companion. Install, then run the /ai-ready slash command to take one real workflow through the AI-Ready Method — seven moves that turn a fuzzy project into one your agents can run with autonomy. Produces three artifacts in your project folder: the project brief (saved as the project's CLAUDE.md), a first draft of your deliverable, and a session debrief in the project's memory. Re-run the command inside the same project anytime to cold-test the brief or tighten it after real use.",
+  "author": {
+    "name": "KHM Shift"
+  },
+  "homepage": "https://khm.com",
+  "keywords": [
+    "shiftos",
+    "ai-ready",
+    "project-prep",
+    "workflow",
+    "khm-shift"
+  ]
+}

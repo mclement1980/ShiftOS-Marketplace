@@ -23,6 +23,11 @@
       "name": "role-os-interview",
       "source": "./plugins/role-os-interview",
       "description": "ShiftOS Session 5 homework. The fused expertise-extraction and Role Master Prompt interview: turns what you know about your seat into ME/role-master-prompt.md and ME/unique-abilities.md."
+    },
+    {
+      "name": "ai-ready-project",
+      "source": "./plugins/ai-ready-project",
+      "description": "ShiftOS Session 6 companion. Run /ai-ready to take one real workflow through the AI-Ready Method's seven moves: produces the project brief (saved as the project's CLAUDE.md), a first draft of the deliverable, and a session debrief. Re-run in the same project to cold-test or tighten the brief."
     }
   ]
 }
