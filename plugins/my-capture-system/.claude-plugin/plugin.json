@@ -1,0 +1,16 @@
+{
+  "name": "my-capture-system",
+  "version": "1.0.0",
+  "description": "ShiftOS Session 3 homework. Install, then run the /my-capture-system slash command to launch a guided interview that produces your Capture Blueprint (a visual one-pager) and a Master Prompt addendum. Re-run the command anytime in the same folder and it will offer to update your existing Capture System instead of starting over.",
+  "author": {
+    "name": "KHM Shift"
+  },
+  "homepage": "https://khm.com",
+  "keywords": [
+    "shiftos",
+    "capture",
+    "capture-system",
+    "alpha",
+    "khm-shift"
+  ]
+}

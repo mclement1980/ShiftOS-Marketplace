@@ -1,0 +1,16 @@
+{
+  "name": "shiftos-setup-coach",
+  "version": "1.0.0",
+  "description": "The ShiftOS Workspace guided setup interview. Say 'set up my ShiftOS' after installing your workspace: a five-phase interview (voice dump, 12-section answer-first interview, optional assessments, Working With Me synthesis) that writes ME/master-profile.md, starts your memory log, clears the first-run bootstrap, and verifies the result. Pause anytime and resume exactly where you left off.",
+  "author": {
+    "name": "KHM Shift"
+  },
+  "homepage": "https://khm.com",
+  "keywords": [
+    "shiftos",
+    "setup",
+    "onboarding",
+    "master-profile",
+    "khm-shift"
+  ]
+}

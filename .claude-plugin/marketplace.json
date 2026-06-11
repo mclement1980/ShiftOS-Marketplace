@@ -1,0 +1,28 @@
+{
+  "name": "shiftos",
+  "owner": {
+    "name": "KHM Shift",
+    "url": "https://khm.com"
+  },
+  "metadata": {
+    "description": "Official plugin marketplace for ShiftOS — the education-first AI operating system program for destination marketing organizations.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shiftos-setup-coach",
+      "source": "./plugins/shiftos-setup-coach",
+      "description": "The ShiftOS Workspace guided setup interview. Run after installing your workspace: a five-phase interview that writes your Master Profile, starts your memory log, and verifies your system. Session 1 companion."
+    },
+    {
+      "name": "my-capture-system",
+      "source": "./plugins/my-capture-system",
+      "description": "ShiftOS Session 3 homework. A guided interview that produces your Capture Blueprint (visual one-pager) and a Master Prompt addendum. Re-run anytime to update instead of starting over."
+    },
+    {
+      "name": "role-os-interview",
+      "source": "./plugins/role-os-interview",
+      "description": "ShiftOS Session 5 homework. The fused expertise-extraction and Role Master Prompt interview: turns what you know about your seat into ME/role-master-prompt.md and ME/unique-abilities.md."
+    }
+  ]
+}
