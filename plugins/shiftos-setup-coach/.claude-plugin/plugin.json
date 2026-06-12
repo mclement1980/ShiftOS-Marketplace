@@ -1,7 +1,7 @@
 {
   "name": "shiftos-setup-coach",
-  "version": "1.0.0",
-  "description": "The ShiftOS Workspace guided setup interview. Say 'set up my ShiftOS' after installing your workspace: a five-phase interview (voice dump, 12-section answer-first interview, optional assessments, Working With Me synthesis) that writes ME/master-profile.md, starts your memory log, clears the first-run bootstrap, and verifies the result. Pause anytime and resume exactly where you left off.",
+  "version": "2.0.0",
+  "description": "The ShiftOS Workspace guided setup. Say 'set up my ShiftOS' after installing your workspace: a twelve-step guided arc that confirms your install, optionally imports what ChatGPT or Gemini already knows about you, builds all six ME/ identity files (Master Profile, writing rules, voice profile, context map, specialist routing, memory), personalizes your workspace contract, quality-checks everything with one cold test, and clears its own bootstrap. About 35-45 minutes, one question at a time, pausable anywhere. Returning users get targeted updates instead of a restart.",
   "author": {
     "name": "KHM Shift"
   },
@@ -11,6 +11,8 @@
     "setup",
     "onboarding",
     "master-profile",
+    "writing-rules",
+    "voice-profile",
     "khm-shift"
   ]
 }

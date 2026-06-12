@@ -19,9 +19,10 @@ Each plugin here is a session companion: install it when your cohort reaches tha
 
 | Plugin | Session | What it does |
 |---|---|---|
-| `shiftos-setup-coach` | Session 1 | The workspace setup interview. Writes your Master Profile into `ME/`, starts your memory log, verifies your system. Say "set up my ShiftOS". |
+| `shiftos-setup-coach` | Session 1 | The workspace guided setup. Builds all six `ME/` identity files, personalizes your workspace contract, quality-checks the result. Say "set up my ShiftOS". |
 | `my-capture-system` | Session 3 | Guided interview producing your Capture Blueprint and a Master Prompt addendum. Run `/my-capture-system`. |
 | `role-os-interview` | Session 5 | Expertise-extraction interview producing your Role Master Prompt and Unique Abilities map in `ME/`. Run `/role-os-interview`. |
+| `ai-ready-project` | Session 6 | The AI-Ready Method's seven moves applied to one real workflow: project brief (as the project's CLAUDE.md), first draft, session debrief. Run `/ai-ready`. |
 
 More session companions are added as cohorts reach them. Installed plugins update from this marketplace — no re-downloading zips.
 

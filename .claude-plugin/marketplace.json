@@ -12,7 +12,7 @@
     {
       "name": "shiftos-setup-coach",
       "source": "./plugins/shiftos-setup-coach",
-      "description": "The ShiftOS Workspace guided setup interview. Run after installing your workspace: a five-phase interview that writes your Master Profile, starts your memory log, and verifies your system. Session 1 companion."
+      "description": "The ShiftOS Workspace guided setup. Run after installing your workspace: a twelve-step arc that builds all six ME/ identity files, personalizes your workspace contract, and quality-checks the result with one cold test. Session 1 companion; re-run anytime for targeted updates."
     },
     {
       "name": "my-capture-system",
