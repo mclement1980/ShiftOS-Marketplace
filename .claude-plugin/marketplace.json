@@ -38,6 +38,16 @@
       "name": "myos-heartbeat",
       "source": "./plugins/myos-heartbeat",
       "description": "Give your MyOS Workspace a heartbeat — scheduled, headless Claude Code work that runs while you sleep. Run /myos-heartbeat to set up routines (a 6 a.m. daily brief, inbox triage, pipeline updates) that run inside your workspace via cron on an always-on machine or a Claude Code on the web trigger. Drafts, never sends, by default; every run scoped and logged. The OpenClaw heartbeat, built on the Claude Code you already have."
+    },
+    {
+      "name": "myos-handbook",
+      "source": "./plugins/myos-handbook",
+      "description": "Write your MyOS employee handbook and make every session read it first. Run /myos-handbook to produce ME/handbook.md — success criteria, the cast, escalation rules, and a 'done' definition for each recurring job — then wire a hard-coded required read into the root CLAUDE.md contract (with an optional SessionStart hook for hard enforcement). The onboarding lesson that an AI colleague's handbook only works when it's required reading, made real."
+    },
+    {
+      "name": "myos-orchestrator",
+      "source": "./plugins/myos-orchestrator",
+      "description": "Run heavy, multi-source jobs in MyOS without overflowing the context window. Run /myos-orchestrator to execute the architecture that made an AI project manager reliable: a central orchestrator delegates to subagent fleets, data-gathering subagents dump raw source to local files instead of summarizing it back, and update subagents work from those files by path. The orchestrator never ingests raw data, so the context window stays clear and decisions run on raw source, not recaps."
     }
   ]
 }
