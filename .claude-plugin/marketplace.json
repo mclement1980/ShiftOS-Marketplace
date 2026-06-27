@@ -28,6 +28,11 @@
       "name": "ai-ready-project",
       "source": "./plugins/ai-ready-project",
       "description": "ShiftOS Session 6 companion. Run /ai-ready to take one real workflow through the AI-Ready Method's seven moves: produces the project brief (saved as the project's CLAUDE.md), a first draft of the deliverable, and a session debrief. Re-run in the same project to cold-test or tighten the brief."
+    },
+    {
+      "name": "myos-local-search",
+      "source": "./plugins/myos-local-search",
+      "description": "Give your MyOS Workspace a local search engine. Run /myos-search to install and configure qmd (a local-first full-text + semantic search CLI), build four collections that mirror the MyOS layers — workspace, meeting transcripts, past session logs, and outside documents — and wire the calibration layer and root contract so every session searches before it says 'I don't know.' Everything stays on the machine. Falls back to Grep when qmd can't be installed."
     }
   ]
 }
