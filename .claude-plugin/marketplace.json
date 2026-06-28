@@ -48,6 +48,21 @@
       "name": "myos-orchestrator",
       "source": "./plugins/myos-orchestrator",
       "description": "Run heavy, multi-source jobs in MyOS without overflowing the context window. Run /myos-orchestrator to execute the architecture that made an AI project manager reliable: a central orchestrator delegates to subagent fleets, data-gathering subagents dump raw source to local files instead of summarizing it back, and update subagents work from those files by path. The orchestrator never ingests raw data, so the context window stays clear and decisions run on raw source, not recaps."
+    },
+    {
+      "name": "myos-memory-session",
+      "source": "./plugins/myos-memory-session",
+      "description": "Pilot teaching session — 'Give MyOS a Memory.' Run /myos-memory to learn the three-layer memory model (instructional, built-in, retrieval), reflect on what your seat most needs to recall, then install the local search engine via myos-local-search. The cohort lesson that wraps the capability. Pilot-stage: validate with a test run before cohort rollout."
+    },
+    {
+      "name": "myos-autopilot-session",
+      "source": "./plugins/myos-autopilot-session",
+      "description": "Pilot teaching session — 'Works While You Sleep.' Run /myos-autopilot to learn how Claude Code runs headless on a schedule, the safety model (draft-never-send, least privilege, prove-before-schedule), and how to define a job before you automate it, then turn on one routine via myos-heartbeat. Pilot-stage: validate with a test run before cohort rollout."
+    },
+    {
+      "name": "myos-ai-employee-session",
+      "source": "./plugins/myos-ai-employee-session",
+      "description": "Pilot capstone session — 'An AI Employee on a Mac Mini.' Run /myos-ai-employee to tie the four MyOS add-ons (handbook, local-search, heartbeat, orchestrator) into a 24/7 AI employee: the five onboarding lessons, the management practice, the Mac Mini build phases, and the promotion ladder to chief of staff. Pilot-stage: validate with a test run before cohort rollout."
     }
   ]
 }
