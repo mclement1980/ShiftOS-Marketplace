@@ -23,6 +23,10 @@ Each plugin here is a session companion: install it when your cohort reaches tha
 | `my-capture-system` | Session 3 | Guided interview producing your Capture Blueprint and a Master Prompt addendum. Run `/my-capture-system`. |
 | `role-os-interview` | Session 5 | Expertise-extraction interview producing your Role Master Prompt and Unique Abilities map in `ME/`. Run `/role-os-interview`. |
 | `ai-ready-project` | Session 6 | The AI-Ready Method's seven moves applied to one real workflow: project brief (as the project's CLAUDE.md), first draft, session debrief. Run `/ai-ready`. |
+| `myos-local-search` | Add-on | Gives your workspace a local search engine. Installs and configures `qmd`, indexes your workspace, meetings, past sessions, and outside docs, and wires every session to search before it guesses. All on-device. Run `/myos-search`. |
+| `myos-heartbeat` | Add-on | Gives your workspace a heartbeat: scheduled, headless Claude Code runs that work while you sleep — a 6 a.m. daily brief, inbox triage, pipeline updates. Cron or a Claude Code on the web trigger. Drafts not sends, every run scoped and logged. Run `/myos-heartbeat`. |
+| `myos-handbook` | Add-on | Writes your workspace's employee handbook (success criteria, the cast, escalation rules, a "done" test per recurring job) and makes every session read it first. The AI-onboarding lesson that the handbook only works when it's required reading. Run `/myos-handbook`. |
+| `myos-orchestrator` | Add-on | Runs heavy, multi-source jobs without blowing the context window: an orchestrator delegates to subagent fleets that dump raw source to local files, then update from those files by path. Decisions run on raw data, not summaries. Run `/myos-orchestrator`. |
 
 More session companions are added as cohorts reach them. Installed plugins update from this marketplace — no re-downloading zips.
 
