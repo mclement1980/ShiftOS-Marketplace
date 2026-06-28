@@ -27,6 +27,9 @@ Each plugin here is a session companion: install it when your cohort reaches tha
 | `myos-heartbeat` | Add-on | Gives your workspace a heartbeat: scheduled, headless Claude Code runs that work while you sleep — a 6 a.m. daily brief, inbox triage, pipeline updates. Cron or a Claude Code on the web trigger. Drafts not sends, every run scoped and logged. Run `/myos-heartbeat`. |
 | `myos-handbook` | Add-on | Writes your workspace's employee handbook (success criteria, the cast, escalation rules, a "done" test per recurring job) and makes every session read it first. The AI-onboarding lesson that the handbook only works when it's required reading. Run `/myos-handbook`. |
 | `myos-orchestrator` | Add-on | Runs heavy, multi-source jobs without blowing the context window: an orchestrator delegates to subagent fleets that dump raw source to local files, then update from those files by path. Decisions run on raw data, not summaries. Run `/myos-orchestrator`. |
+| `myos-memory-session` | Pilot | Teaching session: "Give MyOS a Memory." Teaches the three-layer memory model, then installs local search. Run `/myos-memory`. |
+| `myos-autopilot-session` | Pilot | Teaching session: "Works While You Sleep." Teaches headless + scheduler and the safety model, then turns on one heartbeat routine. Run `/myos-autopilot`. |
+| `myos-ai-employee-session` | Pilot | Capstone session: "An AI Employee on a Mac Mini." Ties the four add-ons into a 24/7 AI employee — onboarding lessons, the Mac Mini build, the promotion ladder. Run `/myos-ai-employee`. |
 
 More session companions are added as cohorts reach them. Installed plugins update from this marketplace — no re-downloading zips.
 
