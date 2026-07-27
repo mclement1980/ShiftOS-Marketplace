@@ -1,0 +1,16 @@
+{
+  "name": "shiftos-dispatch",
+  "displayName": "ShiftOS-DISPATCH",
+  "version": "1.0.0",
+  "description": "ShiftOS Session 4 companion for preparing, approving, building, verifying, and handing off one real deliverable. This package supports the Claude route.",
+  "author": {
+    "name": "KHM Shift"
+  },
+  "keywords": [
+    "shiftos",
+    "dispatch",
+    "deliverable",
+    "project-prep",
+    "khm-shift"
+  ]
+}

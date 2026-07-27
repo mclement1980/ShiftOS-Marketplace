@@ -1,43 +1,53 @@
 # ShiftOS Marketplace
 
-Official plugins for **ShiftOS** participants — the education-first program where destination marketing organizations build their own AI operating system.
+This repository distributes **ShiftOS-DISPATCH**, the ShiftOS companion that helps a participant prepare, approve, build, verify, and hand off one real deliverable.
 
-Each plugin here is a session companion: install it when your cohort reaches that session, run the slash command, and it guides you through producing a real artifact for your ShiftOS Workspace.
+Every cohort receives both the Claude and Codex versions. Choose the version for the platform you already use and run that one version; you do not need to install both. Codex is the ShiftOS reference and default implementation. Claude is fully supported under the same DISPATCH workflow and proof contract.
 
-## Installing
+After installation, invoke the companion in either platform by saying:
 
-**In Cowork (Claude desktop):** open **Customise** (sliders icon at the bottom of the sidebar) → **Plugins** → **Add marketplace** → enter `mclement1980/ShiftOS-Marketplace` → install the plugin your session calls for.
+> Run DISPATCH.
 
-**In Claude Code:**
+## Claude Marketplace route
 
-```
+In Claude Code, add this repository as a marketplace and install the Claude plugin:
+
+```text
 /plugin marketplace add mclement1980/ShiftOS-Marketplace
-/plugin install shiftos-setup-coach@shiftos
+/plugin install shiftos-dispatch@shiftos
 ```
 
-## Plugins
+Claude exposes the Marketplace skill through the namespaced shortcut `/shiftos-dispatch:dispatch`. Use “Run DISPATCH” as the supported cross-platform invocation.
 
-| Plugin | Session | What it does |
-|---|---|---|
-| `shiftos-setup-coach` | Session 1 | The workspace guided setup. Builds all six `ME/` identity files, personalizes your workspace contract, quality-checks the result. Say "set up my ShiftOS". |
-| `my-capture-system` | Session 3 | Guided interview producing your Capture Blueprint and a Master Prompt addendum. Run `/my-capture-system`. |
-| `role-os-interview` | Session 5 | Expertise-extraction interview producing your Role Master Prompt and Unique Abilities map in `ME/`. Run `/role-os-interview`. |
-| `ai-ready-project` | Session 6 | The AI-Ready Method's seven moves applied to one real workflow: project brief (as the project's CLAUDE.md), first draft, session debrief. Run `/ai-ready`. |
-| `myos-local-search` | Add-on | Gives your workspace a local search engine. Installs and configures `qmd`, indexes your workspace, meetings, past sessions, and outside docs, and wires every session to search before it guesses. All on-device. Run `/myos-search`. |
-| `myos-heartbeat` | Add-on | Gives your workspace a heartbeat: scheduled, headless Claude Code runs that work while you sleep — a 6 a.m. daily brief, inbox triage, pipeline updates. Cron or a Claude Code on the web trigger. Drafts not sends, every run scoped and logged. Run `/myos-heartbeat`. |
-| `myos-handbook` | Add-on | Writes your workspace's employee handbook (success criteria, the cast, escalation rules, a "done" test per recurring job) and makes every session read it first. The AI-onboarding lesson that the handbook only works when it's required reading. Run `/myos-handbook`. |
-| `myos-orchestrator` | Add-on | Runs heavy, multi-source jobs without blowing the context window: an orchestrator delegates to subagent fleets that dump raw source to local files, then update from those files by path. Decisions run on raw data, not summaries. Run `/myos-orchestrator`. |
+## Codex repository-marketplace route
 
-More session companions are added as cohorts reach them. Installed plugins update from this marketplace — no re-downloading zips.
+In a terminal with Codex installed, add this repository and install the Codex plugin:
 
-## Support
+```text
+codex plugin marketplace add mclement1980/ShiftOS-Marketplace
+codex plugin add shiftos-dispatch@shiftos
+```
 
-ShiftOS participants: post in your cohort's Disco space, or use the contact details in your program welcome materials.
+## ZIP fallback routes
 
-## License
+Use a ZIP only when the repository marketplace route is unavailable:
 
-See [LICENSE.md](LICENSE.md). Plugins are provided for ShiftOS participants and their organizations — install them, use them in your work, make the outputs yours. Please don't redistribute or rebrand the plugins themselves.
+- [Download the Claude ZIP](distributions/shiftos-dispatch/1.0.0/dispatch-claude.zip), extract it, and follow `dispatch/runtime-claude.md`.
+- [Download the Codex ZIP](distributions/shiftos-dispatch/1.0.0/dispatch-codex.zip), extract it, and follow `dispatch/runtime-codex.md`.
 
----
+The release checksums are in [SHA256SUMS](distributions/shiftos-dispatch/1.0.0/SHA256SUMS).
+
+## What completion means
+
+Installation makes the guided companion available; it does not complete the learning work or prove transfer. A complete DISPATCH run still requires an approved brief, the actual requested deliverable, verification evidence, and a debrief.
+
+The manual equivalent remains valid. A participant can use the course materials to prepare the same brief, build the deliverable, verify it against the agreed standard, and record the debrief without installing a plugin.
+
+## Support and policy
+
+- [Support](SUPPORT.md)
+- [Security](SECURITY.md)
+- [Release policy](RELEASE-POLICY.md)
+- [License](LICENSE.md)
 
 © 2026 KHM Shift. ShiftOS is a program of KHM Shift.
