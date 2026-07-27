@@ -1,0 +1,20 @@
+{
+  "name": "shiftos",
+  "interface": {
+    "displayName": "ShiftOS"
+  },
+  "plugins": [
+    {
+      "name": "shiftos-dispatch",
+      "source": {
+        "source": "local",
+        "path": "./plugins/shiftos-dispatch"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
